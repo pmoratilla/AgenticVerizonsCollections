@@ -1,0 +1,81 @@
+:root{
+  --fd-indigo:#4b4bf9;
+  --fd-midnight:#09092d;
+  --fd-white:#ffffff;
+  --fd-mint:#8bf0bb;
+}
+
+body{
+  margin:0;
+  font-family:Segoe UI;
+  background:var(--fd-midnight);
+  color:white;
+}
+
+.app{
+  max-width:900px;
+  margin:auto;
+  padding:30px;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.badge{
+  background:rgba(139,240,187,0.2);
+  color:var(--fd-mint);
+  padding:8px 12px;
+  border-radius:999px;
+}
+
+.chat{
+  height:70vh;
+  overflow-y:auto;
+  background:#11113d;
+  border-radius:18px;
+  padding:20px;
+  margin-bottom:20px;
+}
+
+.message{
+  padding:14px;
+  border-radius:14px;
+  margin-bottom:12px;
+  max-width:75%;
+}
+
+.user{
+  background:var(--fd-indigo);
+  margin-left:auto;
+}
+
+.bot{
+  background:#1b1b5d;
+}
+
+.input-area{
+  display:flex;
+  gap:10px;
+}
+
+input{
+  flex:1;
+  padding:16px;
+  border-radius:12px;
+  border:none;
+  background:#1b1b5d;
+  color:white;
+}
+
+button{
+  background:var(--fd-indigo);
+  color:white;
+  border:none;
+  padding:16px 22px;
+  border-radius:12px;
+  cursor:pointer;
+}
